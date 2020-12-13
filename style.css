@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: crimson;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: serif;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.links :hover {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.profilePhoto {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: indigo;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#00ffee 0%, #0083bf 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: black;
+}
+
+#hi {
+    text-align: center;
+}
