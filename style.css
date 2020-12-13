@@ -27,7 +27,7 @@ body {
 }
 
 .links :hover {
-    background-color: white;
+    background-color: cornsilk;
     font-family: sans-serif;
 }
 
@@ -69,4 +69,18 @@ body {
 
 #hi {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: deeppink;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
 }
